@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.type.usergroup_apply"><![CDATA[Moderated Groups - New Application]]></item>
+		<item name="wcf.acp.uzbot.type.usergroup_apply.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.25"><![CDATA[Moderated Groups - New Application]]></item>
+		<item name="wcf.acp.uzbot.help.type.25.description"><![CDATA[<p>This Bot monitors user group applications and sends respective notifications.</p>
+<p>By selecting the Affected User the notification can be sent to either the applicant (standard) or the group leaders.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Number of applications (always 1)</td></tr>
+<tr><td><strong>[applicant-age]</strong></td><td>Age of applicant</td></tr>
+<tr><td><strong>[applicant-email]</strong></td><td>Email of applicant</td></tr>
+<tr><td><strong>[applicant-id]</strong></td><td>ID of applicant</td></tr>
+<tr><td><strong>[applicant-name]</strong></td><td>Name of applicant</td></tr>
+<tr><td><strong>[applicant-profile]</strong></td><td>Link to the profile of the applicant</td></tr>
+<tr><td><strong>[applicant-reason]</strong></td><td>Reason for application</td></tr>
+<tr><td><strong>[group-name]</strong></td><td>Name of affected group</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+
+		<item name="wcf.acp.uzbot.type.usergroup_apply_change"><![CDATA[Moderated Groups - Application changed]]></item>
+		<item name="wcf.acp.uzbot.type.usergroup_apply_change.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.27"><![CDATA[Moderated Groups - Application changed]]></item>
+		<item name="wcf.acp.uzbot.help.type.27.description"><![CDATA[<p>This Bot monitors changes of user group applications and sends respective notifications.</p>
+<p>By selecting the Affected User the notification can be sent to either the applicant (standard) or the group leaders.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Number of applications (always 1)</td></tr>
+<tr><td><strong>[applicant-age]</strong></td><td>Age of applicant</td></tr>
+<tr><td><strong>[applicant-email]</strong></td><td>Email of applicant</td></tr>
+<tr><td><strong>[applicant-id]</strong></td><td>ID of applicant</td></tr>
+<tr><td><strong>[applicant-name]</strong></td><td>Name of applicant</td></tr>
+<tr><td><strong>[applicant-profile]</strong></td><td>Link to the profile of the applicant</td></tr>
+<tr><td><strong>[applicant-reason]</strong></td><td>Reason for application</td></tr>
+<tr><td><strong>[group-name]</strong></td><td>Name of affected group</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.type.usergroup_apply_revoke"><![CDATA[Moderated Groups - Application revoked]]></item>
+		<item name="wcf.acp.uzbot.type.usergroup_apply_revoke.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.28"><![CDATA[Moderated Groups - Application revoked]]></item>
+		<item name="wcf.acp.uzbot.help.type.28.description"><![CDATA[<p>This Bot monitors revoking of user group applications and sends respective notifications.</p>
+<p>By selecting the Affected User the notification can be sent to either the applicant (standard) or the group leaders.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Number of applications (always 1)</td></tr>
+<tr><td><strong>[applicant-age]</strong></td><td>Age of applicant</td></tr>
+<tr><td><strong>[applicant-email]</strong></td><td>Email of applicant</td></tr>
+<tr><td><strong>[applicant-id]</strong></td><td>ID of applicant</td></tr>
+<tr><td><strong>[applicant-name]</strong></td><td>Name of applicant</td></tr>
+<tr><td><strong>[applicant-profile]</strong></td><td>Link to the profile of the applicant</td></tr>
+<tr><td><strong>[applicant-reason]</strong></td><td>Reason for application</td></tr>
+<tr><td><strong>[group-name]</strong></td><td>Name of affected group</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+	</category>
+</language>
