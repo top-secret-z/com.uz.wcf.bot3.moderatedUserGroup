@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.acp.uzbot">
-		<item name="wcf.acp.uzbot.type.usergroup_apply"><![CDATA[Moderierte Gruppen - Neue Bewerbung]]></item>
-		<item name="wcf.acp.uzbot.type.usergroup_apply.description"><![CDATA[Es muss nur eine Benachrichtigung konfiguriert werden. {if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} jedoch wählen, ob der Bewerber (Standard) oder die Gruppenleiter (= agierende Benutzer) als „Betroffener Benutzer“ genutzt werden.]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.25"><![CDATA[Moderierte Gruppen - Neue Bewerbung]]></item>
-		<item name="wcf.acp.uzbot.help.type.25.description"><![CDATA[<p>Dieser Bot überwacht Bewerbungen für moderierte Benutzergruppen und erstellt eine Benachrichtigung, wenn ein Benutzer sich bewirbt.</p>
+    <category name="wcf.acp.uzbot">
+        <item name="wcf.acp.uzbot.type.usergroup_apply"><![CDATA[Moderierte Gruppen - Neue Bewerbung]]></item>
+        <item name="wcf.acp.uzbot.type.usergroup_apply.description"><![CDATA[Es muss nur eine Benachrichtigung konfiguriert werden. {if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} jedoch wählen, ob der Bewerber (Standard) oder die Gruppenleiter (= agierende Benutzer) als „Betroffener Benutzer“ genutzt werden.]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.25"><![CDATA[Moderierte Gruppen - Neue Bewerbung]]></item>
+        <item name="wcf.acp.uzbot.help.type.25.description"><![CDATA[<p>Dieser Bot überwacht Bewerbungen für moderierte Benutzergruppen und erstellt eine Benachrichtigung, wenn ein Benutzer sich bewirbt.</p>
 <p>Durch Wahl des Betroffenen Benutzers kann die Benachrichtigung entweder an den Bewerber (Standard) oder die Gruppenleiter versendet werden.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
 <table><col width="200px">
@@ -36,11 +36,11 @@
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
 
-		<item name="wcf.acp.uzbot.type.usergroup_apply_change"><![CDATA[Moderierte Gruppen - Bewerbung geändert]]></item>
-		<item name="wcf.acp.uzbot.type.usergroup_apply_change.description"><![CDATA[Es muss nur eine Benachrichtigung konfiguriert werden. {if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} jedoch wählen, ob der Bewerber (Standard) oder die Gruppenleiter (= agierende Benutzer) als „Betroffener Benutzer“ genutzt werden.]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.27"><![CDATA[Moderierte Gruppen - Bewerbung geändert]]></item>
-		<item name="wcf.acp.uzbot.help.type.27.description"><![CDATA[<p>Dieser Bot überwacht Änderungen von Bewerbungen für moderierte Benutzergruppen und erstellt eine Benachrichtigung, wenn ein Benutzer eine Bewerbung ändert.</p>
+        <item name="wcf.acp.uzbot.type.usergroup_apply_change"><![CDATA[Moderierte Gruppen - Bewerbung geändert]]></item>
+        <item name="wcf.acp.uzbot.type.usergroup_apply_change.description"><![CDATA[Es muss nur eine Benachrichtigung konfiguriert werden. {if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} jedoch wählen, ob der Bewerber (Standard) oder die Gruppenleiter (= agierende Benutzer) als „Betroffener Benutzer“ genutzt werden.]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.27"><![CDATA[Moderierte Gruppen - Bewerbung geändert]]></item>
+        <item name="wcf.acp.uzbot.help.type.27.description"><![CDATA[<p>Dieser Bot überwacht Änderungen von Bewerbungen für moderierte Benutzergruppen und erstellt eine Benachrichtigung, wenn ein Benutzer eine Bewerbung ändert.</p>
 <p>Durch Wahl des Betroffenen Benutzers kann die Benachrichtigung entweder an den Bewerber (Standard) oder die Gruppenleiter versendet werden.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
 <table><col width="200px">
@@ -70,12 +70,12 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.type.usergroup_apply_revoke"><![CDATA[Moderierte Gruppen - Bewerbung zurückgezogen]]></item>
-		<item name="wcf.acp.uzbot.type.usergroup_apply_revoke.description"><![CDATA[Es muss nur eine Benachrichtigung konfiguriert werden. {if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} jedoch wählen, ob der Bewerber (Standard) oder die Gruppenleiter (= agierende Benutzer) als „Betroffener Benutzer“ genutzt werden.]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.28"><![CDATA[Moderierte Gruppen - Bewerbung zurückgezogen]]></item>
-		<item name="wcf.acp.uzbot.help.type.28.description"><![CDATA[<p>Dieser Bot überwacht das Zurückziehen von Bewerbungen für moderierte Benutzergruppen und erstellt eine Benachrichtigung, wenn ein Benutzer eine Bewerbung zurückzieht.</p>
+
+        <item name="wcf.acp.uzbot.type.usergroup_apply_revoke"><![CDATA[Moderierte Gruppen - Bewerbung zurückgezogen]]></item>
+        <item name="wcf.acp.uzbot.type.usergroup_apply_revoke.description"><![CDATA[Es muss nur eine Benachrichtigung konfiguriert werden. {if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} jedoch wählen, ob der Bewerber (Standard) oder die Gruppenleiter (= agierende Benutzer) als „Betroffener Benutzer“ genutzt werden.]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.28"><![CDATA[Moderierte Gruppen - Bewerbung zurückgezogen]]></item>
+        <item name="wcf.acp.uzbot.help.type.28.description"><![CDATA[<p>Dieser Bot überwacht das Zurückziehen von Bewerbungen für moderierte Benutzergruppen und erstellt eine Benachrichtigung, wenn ein Benutzer eine Bewerbung zurückzieht.</p>
 <p>Durch Wahl des Betroffenen Benutzers kann die Benachrichtigung entweder an den Bewerber (Standard) oder die Gruppenleiter versendet werden.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
 <table><col width="200px">
@@ -105,5 +105,5 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-	</category>
+    </category>
 </language>

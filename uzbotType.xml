@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
-	<import>
-		<uzbotType name="usergroup_apply">
-			<typeID>25</typeID>
-			<application>WCF</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>1</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>25</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="usergroup_apply_change">
-			<typeID>27</typeID>
-			<application>WCF</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>1</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>26</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="usergroup_apply_revoke">
-			<typeID>28</typeID>
-			<application>WCF</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>1</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>27</sortOrder>
-		</uzbotType>
-	</import>
+    <import>
+        <uzbotType name="usergroup_apply">
+            <typeID>25</typeID>
+            <application>WCF</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>1</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>25</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="usergroup_apply_change">
+            <typeID>27</typeID>
+            <application>WCF</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>1</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>26</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="usergroup_apply_revoke">
+            <typeID>28</typeID>
+            <application>WCF</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>1</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>27</sortOrder>
+        </uzbotType>
+    </import>
 </data>
