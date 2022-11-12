@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.acp.uzbot">
-		<item name="wcf.acp.uzbot.type.usergroup_apply"><![CDATA[Moderated Groups - New Application]]></item>
-		<item name="wcf.acp.uzbot.type.usergroup_apply.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.25"><![CDATA[Moderated Groups - New Application]]></item>
-		<item name="wcf.acp.uzbot.help.type.25.description"><![CDATA[<p>This Bot monitors user group applications and sends respective notifications.</p>
+    <category name="wcf.acp.uzbot">
+        <item name="wcf.acp.uzbot.type.usergroup_apply"><![CDATA[Moderated Groups - New Application]]></item>
+        <item name="wcf.acp.uzbot.type.usergroup_apply.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.25"><![CDATA[Moderated Groups - New Application]]></item>
+        <item name="wcf.acp.uzbot.help.type.25.description"><![CDATA[<p>This Bot monitors user group applications and sends respective notifications.</p>
 <p>By selecting the Affected User the notification can be sent to either the applicant (standard) or the group leaders.</p>
 <br><p>The following Bot-specific placeholders are available:</p>
 <table><col width="200px">
@@ -36,11 +36,11 @@
 <tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
 </table>]]></item>
 
-		<item name="wcf.acp.uzbot.type.usergroup_apply_change"><![CDATA[Moderated Groups - Application changed]]></item>
-		<item name="wcf.acp.uzbot.type.usergroup_apply_change.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.27"><![CDATA[Moderated Groups - Application changed]]></item>
-		<item name="wcf.acp.uzbot.help.type.27.description"><![CDATA[<p>This Bot monitors changes of user group applications and sends respective notifications.</p>
+        <item name="wcf.acp.uzbot.type.usergroup_apply_change"><![CDATA[Moderated Groups - Application changed]]></item>
+        <item name="wcf.acp.uzbot.type.usergroup_apply_change.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.27"><![CDATA[Moderated Groups - Application changed]]></item>
+        <item name="wcf.acp.uzbot.help.type.27.description"><![CDATA[<p>This Bot monitors changes of user group applications and sends respective notifications.</p>
 <p>By selecting the Affected User the notification can be sent to either the applicant (standard) or the group leaders.</p>
 <br><p>The following Bot-specific placeholders are available:</p>
 <table><col width="200px">
@@ -70,12 +70,12 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.type.usergroup_apply_revoke"><![CDATA[Moderated Groups - Application revoked]]></item>
-		<item name="wcf.acp.uzbot.type.usergroup_apply_revoke.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.28"><![CDATA[Moderated Groups - Application revoked]]></item>
-		<item name="wcf.acp.uzbot.help.type.28.description"><![CDATA[<p>This Bot monitors revoking of user group applications and sends respective notifications.</p>
+
+        <item name="wcf.acp.uzbot.type.usergroup_apply_revoke"><![CDATA[Moderated Groups - Application revoked]]></item>
+        <item name="wcf.acp.uzbot.type.usergroup_apply_revoke.description"><![CDATA[Only the notification must be configured. You can, however, choose, whether the applicant (default) or the group leaders (= acting user) are treated as “Affected User”.]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.28"><![CDATA[Moderated Groups - Application revoked]]></item>
+        <item name="wcf.acp.uzbot.help.type.28.description"><![CDATA[<p>This Bot monitors revoking of user group applications and sends respective notifications.</p>
 <p>By selecting the Affected User the notification can be sent to either the applicant (standard) or the group leaders.</p>
 <br><p>The following Bot-specific placeholders are available:</p>
 <table><col width="200px">
@@ -105,5 +105,5 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
 </table>]]></item>
-	</category>
+    </category>
 </language>
